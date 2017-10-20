@@ -1,0 +1,6 @@
+version: "3"
+services:
+  feedmonster:
+    build: .
+  smtp:
+    image: namshi/smtp
